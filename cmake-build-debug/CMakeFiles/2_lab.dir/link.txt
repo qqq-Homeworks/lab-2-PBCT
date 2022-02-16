@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -arch arm64 -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/2_lab.dir/Man.cpp.o CMakeFiles/2_lab.dir/Planet.cpp.o CMakeFiles/2_lab.dir/1.3.cpp.o -o 2_lab 
