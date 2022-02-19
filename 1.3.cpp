@@ -8,19 +8,22 @@ int main() {
     return 0;
 }
 
-void menu() {
+void printMenuList() {
     std::cout << " ============== ГЛАВНОЕ МЕНЮ ========================\n";
     std::cout << "l - добавление планеты\t 3 - редактирование сведений" << '\n';
     std::cout << "2 - удаление планеты\t 4 - вывод базы на экран" << '\n';
     std::cout << "\t\t 5 - сохранение базы в файл" << '\n';
     std::cout << "\t\t\t 6 - выход" << '\n';
-    std::cout << "Для выбора операции введите цифру от 1 до 6" << '\n';
+    std::cout << "Для выбора операции введите цифру от 1 до 6:" << '\n';
+}
 
+void menu() {
     int menuPoint = 0;
     int n = 0;
     Planet planets[ARRAY_SIZE];
     readFile(planets, n);
     do {
+        printMenuList();
         std::cin >> menuPoint;
         switch (menuPoint) {
             case 1:
@@ -36,7 +39,8 @@ void menu() {
                 printPlanets(planets, n);
                 break;
             case 5:
-
+                writeDB(planets, n);
+                break;
             case 6:
                 return;
             default:
@@ -57,12 +61,8 @@ int readFile(Planet *arr, int &n) {
         std::cout << "Переполнение БД. n= " << n << '\n';
         return 1;
     }
-    int sattelites, diameter;
-    bool life;
     for (int i = 0; i < n; i++) {
-        char *name = new char[20];
-        fin >> name >> diameter >> life >> sattelites;
-        arr[i].SetAllFields(name, diameter, life, sattelites);
+        fin >> arr[i];
     }
     fin.close();
     return 0;
@@ -85,12 +85,12 @@ void addPlanet(Planet *planets, int &n) {
 }
 
 void printPlanets(Planet *planets, const int n) {
+    std::sort(planets,planets + n);
     std::cout << " Список планет: " << '\n';
-    for (int i = 0; i < n; i++)
-        std::cout << std::setw(3) << i + 1 << ". " << planets[i].GetName()
-                  << std::setw(20 - strlen(planets[i].GetName()) + 6)
-                  << planets[i].GetDiameter() << std::setw(10) << planets[i].GetLifeStatus() << "   "
-                  << planets[i].GetSattelitesNumber() << '\n';
+    for (int i = 0; i < n; i++) {
+        std::cout << std::setw(3) << i + 1 << ". ";
+        std::cout << planets[i];
+    }
 }
 
 void deletePlanet(Planet *planets, int &n) {
@@ -126,15 +126,15 @@ void editPlanet(Planet *planets, const int n) {
 }
 
 void writeDB(Planet *planets, const int n) {
+    std::sort(planets,planets + n);
     std::ofstream fout(FILENAME, std::ios::out);
     if (!fout) {
         std::cout << "Ошибка открытия файла" << std::endl;
         return;
     }
-    fout << n;
+    fout << n << '\n';
     for (int i = 0; i < n; i++)
-        fout << planets[i].GetName() << ' ' << planets[i].GetDiameter() << ' ' << planets[i].GetLifeStatus()
-             << ' ' << planets[i].GetSattelitesNumber() << '\n';
+        fout << planets[i];
     fout.close();
 }
 //Организовать интерфейс пользователя с программой в виде меню, позволяющего выполнять следующие действия:

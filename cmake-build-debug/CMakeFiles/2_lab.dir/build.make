@@ -79,44 +79,44 @@ CMakeFiles/2_lab.dir/Man.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2_lab.dir/Man.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/Man.cpp" -o CMakeFiles/2_lab.dir/Man.cpp.s
 
-CMakeFiles/2_lab.dir/Planet.cpp.o: CMakeFiles/2_lab.dir/flags.make
-CMakeFiles/2_lab.dir/Planet.cpp.o: ../Planet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/2_lab.dir/Planet.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2_lab.dir/Planet.cpp.o -c "/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/Planet.cpp"
+CMakeFiles/2_lab.dir/Department.cpp.o: CMakeFiles/2_lab.dir/flags.make
+CMakeFiles/2_lab.dir/Department.cpp.o: ../Department.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/2_lab.dir/Department.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2_lab.dir/Department.cpp.o -c "/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/Department.cpp"
 
-CMakeFiles/2_lab.dir/Planet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2_lab.dir/Planet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/Planet.cpp" > CMakeFiles/2_lab.dir/Planet.cpp.i
+CMakeFiles/2_lab.dir/Department.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2_lab.dir/Department.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/Department.cpp" > CMakeFiles/2_lab.dir/Department.cpp.i
 
-CMakeFiles/2_lab.dir/Planet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2_lab.dir/Planet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/Planet.cpp" -o CMakeFiles/2_lab.dir/Planet.cpp.s
+CMakeFiles/2_lab.dir/Department.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2_lab.dir/Department.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/Department.cpp" -o CMakeFiles/2_lab.dir/Department.cpp.s
 
-CMakeFiles/2_lab.dir/1.3.cpp.o: CMakeFiles/2_lab.dir/flags.make
-CMakeFiles/2_lab.dir/1.3.cpp.o: ../1.3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/2_lab.dir/1.3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2_lab.dir/1.3.cpp.o -c "/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/1.3.cpp"
+CMakeFiles/2_lab.dir/1.4.cpp.o: CMakeFiles/2_lab.dir/flags.make
+CMakeFiles/2_lab.dir/1.4.cpp.o: ../1.4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/2_lab.dir/1.4.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2_lab.dir/1.4.cpp.o -c "/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/1.4.cpp"
 
-CMakeFiles/2_lab.dir/1.3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2_lab.dir/1.3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/1.3.cpp" > CMakeFiles/2_lab.dir/1.3.cpp.i
+CMakeFiles/2_lab.dir/1.4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2_lab.dir/1.4.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/1.4.cpp" > CMakeFiles/2_lab.dir/1.4.cpp.i
 
-CMakeFiles/2_lab.dir/1.3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2_lab.dir/1.3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/1.3.cpp" -o CMakeFiles/2_lab.dir/1.3.cpp.s
+CMakeFiles/2_lab.dir/1.4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2_lab.dir/1.4.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/1.4.cpp" -o CMakeFiles/2_lab.dir/1.4.cpp.s
 
 # Object files for target 2_lab
 2_lab_OBJECTS = \
 "CMakeFiles/2_lab.dir/Man.cpp.o" \
-"CMakeFiles/2_lab.dir/Planet.cpp.o" \
-"CMakeFiles/2_lab.dir/1.3.cpp.o"
+"CMakeFiles/2_lab.dir/Department.cpp.o" \
+"CMakeFiles/2_lab.dir/1.4.cpp.o"
 
 # External object files for target 2_lab
 2_lab_EXTERNAL_OBJECTS =
 
 2_lab: CMakeFiles/2_lab.dir/Man.cpp.o
-2_lab: CMakeFiles/2_lab.dir/Planet.cpp.o
-2_lab: CMakeFiles/2_lab.dir/1.3.cpp.o
+2_lab: CMakeFiles/2_lab.dir/Department.cpp.o
+2_lab: CMakeFiles/2_lab.dir/1.4.cpp.o
 2_lab: CMakeFiles/2_lab.dir/build.make
 2_lab: CMakeFiles/2_lab.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable 2_lab"

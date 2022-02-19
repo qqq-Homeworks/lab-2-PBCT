@@ -7,6 +7,7 @@
 #include <iostream>
 #include <fstream>
 #include <iomanip>
+#include <algorithm>
 #include "Planet.hpp"
 
 #define FILENAME "Platents_Database.qqq"
@@ -26,5 +27,6 @@ void printPlanets(Planet *, const int);
 void editPlanet(Planet *, const int);
 
 void writeDB(Planet *, const int);
+
 
 #endif //INC_2_LAB_1_3_HPP

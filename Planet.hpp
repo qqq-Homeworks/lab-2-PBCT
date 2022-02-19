@@ -6,6 +6,9 @@
 
 #define l_name 20
 
+#include <cstring>
+#include <iostream>
+
 class Planet {
     char *Name;
     int Diameter;
@@ -13,9 +16,8 @@ class Planet {
     int Satellite;
 
 public:
-    ~Planet() {
-        delete[] Name;
-    }
+
+    ~Planet();
 
     Planet(int len_name = l_name);
 
@@ -48,6 +50,35 @@ public:
     void SetAllFields(char *, int, bool, int);
 
     void printInfo();
+
+    Planet(const Planet &planet) {
+        Name = new char[l_name];
+        strcpy(Name, planet.Name);
+        Diameter = planet.Diameter;
+        Life = planet.Life;
+        Satellite = planet.Satellite;
+    }
+
+    Planet &operator=(const Planet &planet) {
+        delete[] Name;
+        Name = new char[l_name];
+        strcpy(Name, planet.Name);
+        Diameter = planet.Diameter;
+        Life = planet.Life;
+        Satellite = planet.Satellite;
+
+        return *this;
+    }
+
+    friend std::ostream &operator<<(std::ostream &, const Planet &);
+
+    friend std::ofstream &operator<<(std::ofstream &, const Planet &);
+
+    friend std::ifstream &operator>>(std::ifstream &, Planet &);
+
+    friend bool operator<(const Planet&,const Planet&);
+
+    friend bool operator==(const Planet&,const Planet&);
 };
 
 

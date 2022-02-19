@@ -129,29 +129,53 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab.dir/build.make CMakeFiles/2_lab.dir/build
 .PHONY : 2_lab/fast
 
-1.3.o: 1.3.cpp.o
-.PHONY : 1.3.o
+1.4.o: 1.4.cpp.o
+.PHONY : 1.4.o
 
 # target to build an object file
-1.3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab.dir/build.make CMakeFiles/2_lab.dir/1.3.cpp.o
-.PHONY : 1.3.cpp.o
+1.4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab.dir/build.make CMakeFiles/2_lab.dir/1.4.cpp.o
+.PHONY : 1.4.cpp.o
 
-1.3.i: 1.3.cpp.i
-.PHONY : 1.3.i
+1.4.i: 1.4.cpp.i
+.PHONY : 1.4.i
 
 # target to preprocess a source file
-1.3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab.dir/build.make CMakeFiles/2_lab.dir/1.3.cpp.i
-.PHONY : 1.3.cpp.i
+1.4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab.dir/build.make CMakeFiles/2_lab.dir/1.4.cpp.i
+.PHONY : 1.4.cpp.i
 
-1.3.s: 1.3.cpp.s
-.PHONY : 1.3.s
+1.4.s: 1.4.cpp.s
+.PHONY : 1.4.s
 
 # target to generate assembly for a file
-1.3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab.dir/build.make CMakeFiles/2_lab.dir/1.3.cpp.s
-.PHONY : 1.3.cpp.s
+1.4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab.dir/build.make CMakeFiles/2_lab.dir/1.4.cpp.s
+.PHONY : 1.4.cpp.s
+
+Department.o: Department.cpp.o
+.PHONY : Department.o
+
+# target to build an object file
+Department.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab.dir/build.make CMakeFiles/2_lab.dir/Department.cpp.o
+.PHONY : Department.cpp.o
+
+Department.i: Department.cpp.i
+.PHONY : Department.i
+
+# target to preprocess a source file
+Department.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab.dir/build.make CMakeFiles/2_lab.dir/Department.cpp.i
+.PHONY : Department.cpp.i
+
+Department.s: Department.cpp.s
+.PHONY : Department.s
+
+# target to generate assembly for a file
+Department.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab.dir/build.make CMakeFiles/2_lab.dir/Department.cpp.s
+.PHONY : Department.cpp.s
 
 Man.o: Man.cpp.o
 .PHONY : Man.o
@@ -177,30 +201,6 @@ Man.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab.dir/build.make CMakeFiles/2_lab.dir/Man.cpp.s
 .PHONY : Man.cpp.s
 
-Planet.o: Planet.cpp.o
-.PHONY : Planet.o
-
-# target to build an object file
-Planet.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab.dir/build.make CMakeFiles/2_lab.dir/Planet.cpp.o
-.PHONY : Planet.cpp.o
-
-Planet.i: Planet.cpp.i
-.PHONY : Planet.i
-
-# target to preprocess a source file
-Planet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab.dir/build.make CMakeFiles/2_lab.dir/Planet.cpp.i
-.PHONY : Planet.cpp.i
-
-Planet.s: Planet.cpp.s
-.PHONY : Planet.s
-
-# target to generate assembly for a file
-Planet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab.dir/build.make CMakeFiles/2_lab.dir/Planet.cpp.s
-.PHONY : Planet.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,15 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 2_lab"
-	@echo "... 1.3.o"
-	@echo "... 1.3.i"
-	@echo "... 1.3.s"
+	@echo "... 1.4.o"
+	@echo "... 1.4.i"
+	@echo "... 1.4.s"
+	@echo "... Department.o"
+	@echo "... Department.i"
+	@echo "... Department.s"
 	@echo "... Man.o"
 	@echo "... Man.i"
 	@echo "... Man.s"
-	@echo "... Planet.o"
-	@echo "... Planet.i"
-	@echo "... Planet.s"
 .PHONY : help
 
 
