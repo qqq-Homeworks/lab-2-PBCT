@@ -78,12 +78,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/1.4.cpp">
-			<Option target="2_lab"/>
-		</Unit>
-		<Unit filename="/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/1.4.hpp">
-			<Option target="2_lab"/>
-		</Unit>
 		<Unit filename="/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/Department.cpp">
 			<Option target="2_lab"/>
 		</Unit>
@@ -94,6 +88,12 @@
 			<Option target="2_lab"/>
 		</Unit>
 		<Unit filename="/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/Man.hpp">
+			<Option target="2_lab"/>
+		</Unit>
+		<Unit filename="/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/Planet.cpp">
+			<Option target="2_lab"/>
+		</Unit>
+		<Unit filename="/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/Planet.hpp">
 			<Option target="2_lab"/>
 		</Unit>
 		<Unit filename="/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/CMakeLists.txt">

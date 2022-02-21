@@ -11,3 +11,6 @@ CMakeFiles/2_lab.dir/Department.cpp.o: \
 CMakeFiles/2_lab.dir/Man.cpp.o: \
  ../Man.cpp \
  ../Man.hpp
+CMakeFiles/2_lab.dir/Planet.cpp.o: \
+ ../Planet.cpp \
+ ../Planet.hpp

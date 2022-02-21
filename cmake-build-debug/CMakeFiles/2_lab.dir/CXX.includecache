@@ -6,7 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/Department.cpp
+/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/1.4.cpp
+1.4.hpp
+/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/1.4.hpp
+
+/Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/1.4.hpp
+iomanip
+-
+iostream
+-
+fstream
+-
+algorithm
+-
+cstring
+-
 Department.hpp
 /Users/qqq/Documents/University/1 course/2 term/PBCT/2 lab/Department.hpp
 
